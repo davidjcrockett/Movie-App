@@ -17,6 +17,7 @@ body {
   outline: 2px solid #415a77;
   overflow: hidden;
   color: white;
+  border-radius: .1rem;
 }
 
 .img {
@@ -58,8 +59,22 @@ body {
   margin: .2rem 0;
 }
 
+.card:hover .img {
+  transform: scale(1.1);
+}
+
+.movies-grid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
 .movies-container {
   padding: 1rem;
   text-align: center;
   color: white;
 }
+

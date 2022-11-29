@@ -78,3 +78,27 @@ body {
   color: white;
 }
 
+.search {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  margin-top: 2rem;
+  padding: 2rem 0 1rem;
+}
+
+.search input,
+.search button {
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #415a77;
+  color: white;
+}
+
+.search button:hover {
+background-color: #415a77;
+}
+.search button:active {
+  transform: scale(.9);
+}
